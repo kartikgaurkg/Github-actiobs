@@ -9,9 +9,9 @@ jobs:
         uses: kartikgaurkg/Github-actiobs@master
         env:
           HOST: "3.19.120.1"
-          USERNAME: "ec2-3-19-120-1.us-east-2.compute.amazonaws.com"
+          USERNAME: "ubuntu"
           PORT: 22 80 443
-          KEY: ${{ secretsKEY }}
+          KEY: secretsKEY
         with:
           source: "kartikgaurkg/Github-actiobs/first"
           target: "/var/www/html"

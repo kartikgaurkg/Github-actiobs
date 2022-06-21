@@ -10,7 +10,7 @@ jobs:
         env:
           HOST: "3.19.120.1"
           USERNAME: "ec2-3-19-120-1.us-east-2.compute.amazonaws.com"
-          PORT: ${{ secrets.PORT }}
+          PORT: 22 80 443
           KEY: ${{ secretsKEY }}
         with:
           source: "first"
